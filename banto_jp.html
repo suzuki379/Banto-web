@@ -201,8 +201,8 @@ section { position:relative; z-index:1; }
 .service-item {
   border-top:1px solid rgba(184,150,46,0.15);
   padding:48px 0;
-  display:grid; grid-template-columns:1fr 2fr auto;
-  gap:60px; align-items:start;
+  display:grid; grid-template-columns:190px 1fr 220px;
+  gap:48px; align-items:start;
   transition:background 0.2s;
 }
 .service-item:last-child { border-bottom:1px solid rgba(184,150,46,0.15); }
@@ -225,6 +225,7 @@ section { position:relative; z-index:1; }
 }
 .service-desc p { margin-bottom:14px; }
 .service-desc p:last-child { margin-bottom:0; }
+.service-desc p.service-sub { color:var(--indigo); font-weight:400; margin:22px 0 4px; }
 
 .service-price {
   text-align:right;
@@ -243,6 +244,9 @@ section { position:relative; z-index:1; }
   letter-spacing:0.05em; display:block; margin-bottom:2px;
 }
 .service-price-num small { font-size:15px; margin-left:2px; }
+.service-price-small {
+  font-size:17px; font-weight:400; color:var(--indigo); display:block; letter-spacing:0.02em;
+}
 .service-price-consult {
   font-size:12px; font-weight:300; color:var(--gold);
   font-family:'DM Sans', sans-serif; letter-spacing:0.1em;
@@ -528,7 +532,7 @@ footer {
           <span class="service-price-label">多くのお客様のご契約</span>
           <span class="service-price-num">¥200,000<small>前後</small></span>
           <span class="service-price-unit">/ 月額</span>
-          <span class="service-price-consult">業務範囲・金額はご相談に応じます</span>
+          <span class="service-price-consult">業務範囲・金額は<br>ご相談に応じます</span>
         </div>
       </div>
 
@@ -545,7 +549,7 @@ footer {
           <span class="service-price-label">多くのお客様のご契約</span>
           <span class="service-price-num">¥150,000<small>前後</small></span>
           <span class="service-price-unit">/ 月額</span>
-          <span class="service-price-consult">業務範囲・金額はご相談に応じます</span>
+          <span class="service-price-consult">業務範囲・金額は<br>ご相談に応じます</span>
         </div>
       </div>
 
@@ -555,11 +559,14 @@ footer {
           その他のご支援
         </div>
         <div class="service-desc">
-          <p>広報戦略の立案から、プレスリリース作成、メディア向けピッチ資料の作成、メディアアプローチまで。事業会社で広報責任者として実績を積んできた経験をもとに、必要に応じてサポートします。</p>
-          <p>海外展開を視野に入れている方へは、LinkedInの運用や弁理士との連携による商標出願サポートもご相談可能です。</p>
+          <p>バックオフィスに付随する、その他のご支援も承っています。</p>
+          <p class="service-sub">広報・PR</p>
+          <p>PR会社様に依頼すると月額数十万円かかることも多く、広報を後回しにしていませんか？ しかし本来、PRが必要のない会社はありません。<br>そこで、事業会社で広報責任者として実績を積んできた経験をもとに、バックオフィスサポートの延長線として、御社の規模に合わせてサポートします。プレスリリースの作成、メディア向けピッチ資料の作成、メディアアプローチなど、必要なところから始められます。</p>
+          <p class="service-sub">海外展開をお考えの皆様へ</p>
+          <p>長い海外経験を生かしてサポートいたします。LinkedInの運用や、弁理士との連携による商標出願などもご相談ください。</p>
         </div>
         <div class="service-price">
-          <span class="service-price-consult">ご相談ください</span>
+          <span class="service-price-consult">スポットから<br>ご相談ください</span>
         </div>
       </div>
 
