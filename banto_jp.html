@@ -227,7 +227,7 @@ section { position:relative; z-index:1; }
 .service-desc p:last-child { margin-bottom:0; }
 
 .service-price {
-  text-align:right; white-space:nowrap;
+  text-align:right;
 }
 .service-price-num {
   font-family:'Cormorant Garamond', serif;
@@ -238,6 +238,11 @@ section { position:relative; z-index:1; }
   font-size:11px; font-weight:300; color:var(--ink-light);
   font-family:'DM Sans', sans-serif; letter-spacing:0.1em;
 }
+.service-price-label {
+  font-size:11px; font-weight:300; color:var(--ink-light);
+  letter-spacing:0.05em; display:block; margin-bottom:2px;
+}
+.service-price-num small { font-size:15px; margin-left:2px; }
 .service-price-consult {
   font-size:12px; font-weight:300; color:var(--gold);
   font-family:'DM Sans', sans-serif; letter-spacing:0.1em;
@@ -488,7 +493,7 @@ footer {
       <p class="hero-lead-heading">売上拡大やブランディングなど、会社のトップラインを上げることに日々集中されている<span class="hero-lead-highlight">経営者の皆様へ。</span></p>
       <p>その一方で、コーポレートの事務作業が後回しになっていませんか？</p>
       <p>私たちは、事務サポート代行と並行して、御社がこれから迎える拡大期や急成長期にも耐え得る根本の体制づくりからご支援いたします。<br>ガバナンスの整った運用体制の構築から、担当者のアサインまで。</p>
-      <p>顧問税理士の先生との連携により、漏れのない運用体制を作ることで、事業拡大に集中していただく環境をご提供いたします。</p>
+      <p>税理士・社労士・弁護士など、士業の先生方との連携により、漏れのない運用体制を作ることで、事業拡大に集中していただく環境をご提供いたします。</p>
     </div>
     <div class="hero-actions">
       <a href="#services" class="btn-primary">サービスを見る →</a>
@@ -520,8 +525,10 @@ footer {
           <p>証憑の整理・管理、請求・入金・支払管理、記帳、固定資産台帳など、日常の経理業務が漏れなく回る状態をつくります。</p>
         </div>
         <div class="service-price">
-          <span class="service-price-num">¥200,000</span>
+          <span class="service-price-label">多くのお客様のご契約</span>
+          <span class="service-price-num">¥200,000<small>前後</small></span>
           <span class="service-price-unit">/ 月額</span>
+          <span class="service-price-consult">業務範囲・金額はご相談に応じます</span>
         </div>
       </div>
 
@@ -535,8 +542,10 @@ footer {
           <p>勤怠・有給管理、入退社書類の回収、雇用契約管理、給与計算に必要な情報整理、社労士の先生との窓口など、労務業務が漏れなく回る状態をつくります。</p>
         </div>
         <div class="service-price">
-          <span class="service-price-num">¥150,000</span>
+          <span class="service-price-label">多くのお客様のご契約</span>
+          <span class="service-price-num">¥150,000<small>前後</small></span>
           <span class="service-price-unit">/ 月額</span>
+          <span class="service-price-consult">業務範囲・金額はご相談に応じます</span>
         </div>
       </div>
 
@@ -605,7 +614,7 @@ footer {
       <h2 class="contact-h2">まずはご相談ください。</h2>
       <p class="contact-sub">お気軽にお問い合わせください。</p>
       <div class="contact-box fade-up">
-        <p class="contact-box-text">経理・労務・広報など、御社の状況に合わせたご提案をいたします。まずはお気軽にご連絡ください。</p>
+        <p class="contact-box-text">経理・労務・広報など、御社の状況に合わせたご提案をいたします。多くのお客様は上記の金額前後でご契約いただいていますが、業務範囲と金額は初回のご相談のうえで調整いたします。まずはお気軽にご連絡ください。</p>
         <a href="https://forms.gle/GNyxyBhw94xN44xx6" target="_blank" class="btn-contact">お問い合わせはこちら →</a>
         <p class="contact-note">通常2営業日以内にご返信いたします</p>
       </div>
