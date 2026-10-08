@@ -138,6 +138,13 @@ footer a:hover{color:var(--navy)}
   .about-grid .portrait{max-width:280px}
   .band{padding:56px 0}
 }
+.svc-strip{border-bottom:1px solid var(--line);background:var(--beige)}
+.svc-strip .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 24px;min-height:48px;font-size:14px}
+.svc-strip .svc-label{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.svc-strip a{text-decoration:none;color:var(--ink);padding:12px 0;font-weight:500}
+.svc-strip a:hover{color:var(--navy)}
+.svc-strip a.on{color:var(--navy);font-weight:700;box-shadow:inset 0 -2px 0 var(--gold)}
+@media(max-width:480px){.svc-strip .svc-label{flex-basis:100%;padding-top:12px}.svc-strip .wrap{gap:0 24px}}
 </style>
 </head>
 <body>
@@ -154,6 +161,7 @@ footer a:hover{color:var(--navy)}
     </nav>
   </div>
 </header>
+<div class="svc-strip"><div class="wrap"><span class="svc-label">BANTO services</span><a href="index.html" class="on" aria-current="page">Back Office</a><a href="japan-bd.html">BD</a><a href="japan-account-management.html">Account</a></div></div>
 
 <main id="top">
 
